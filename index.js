@@ -25,8 +25,9 @@ const string2 = "ABCDEFGHJKLO";
 
 // Your code here...
 
+const result = string2[string2.indexOf('C')]+string2[string2.indexOf('O')]+string2[string2.indexOf('O')]+string2[string2.indexOf('L')]
 
-
+console.log(result)
 
 /*****************************************************
     Iteration 3 | Repeat a String and Concatenate
