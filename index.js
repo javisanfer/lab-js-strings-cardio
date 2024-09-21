@@ -7,7 +7,13 @@ const string1 = "My favorite dessert is jello";
 
 // Your code here...
 
+let i = 0
 
+while(string1[i] != "j"){
+    i++
+}
+
+console.log("El número es: " + i)
 
 
 /*******************************************
